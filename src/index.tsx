@@ -1,11 +1,11 @@
 import ReactDOM from "react-dom";
-import EventComponent from "./events/EventComponent";
+import UserSearch from "./refs/UserSearch";
 
 const App = () => {
   return (
     <div>
       <h1>Hello, React-TypeScript Union</h1>
-      <EventComponent />
+      <UserSearch />
     </div>
   );
 };
